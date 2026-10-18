@@ -87,7 +87,7 @@ The main stages of the flow are:
 2. Calculate the flop ratio.
 
 
-$$Flop\Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}$$
+$$Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}$$
 
 $$Percentage\ of\ DFFs = Flop\ Ratio \times 100$$
 
