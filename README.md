@@ -150,7 +150,7 @@ Calculation from the synthesis statistics report:
 
 $$Flop\ Ratio = \frac{1613}{14876} = 0.108429685$$
 
-$$Percentage\ of\ DFFs = 0.108429685 \times 100 = 10.8429685 \ %$$
+$$Percentage\ of\ DFFs = 0.108429685 \times 100 = 10.8429685 \ \%$$
 
 ---
 
