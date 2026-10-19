@@ -105,8 +105,10 @@ exit
 ### Screenshot — OpenLANE Setup and Synthesis
 
 <!-- Add screenshot(s) here -->
-<!-- ![OpenLANE setup](images/section-1-openlane-setup.png) -->
-<!-- ![Synthesis output](images/section-1-synthesis.png) -->
+<img width="1223" height="712" alt="Screenshot 2026-10-17 082831" src="https://github.com/user-attachments/assets/214b8480-bf94-4f84-910d-8ce14dc22612" />
+
+<img width="1212" height="802" alt="Screenshot 2026-10-17 084319" src="https://github.com/user-attachments/assets/fb5cb5d2-d61a-4998-8c61-6032ef252081" />
+
 
 #### 2. Calculate the flop ratio
 
@@ -114,22 +116,24 @@ Use the values from **your own synthesis statistics report**.
 
 \[
 \text{Flop Ratio} =
-\frac{\text{Number of D Flip-Flops}}{\text{Total Number of Cells}}
+\frac{\text{Number of D Flip-Flop}}{\text{Total Number of Cells}}
 \]
 
 \[
 \text{DFF Percentage} = \text{Flop Ratio} \times 100\%
 \]
 
-- Number of D flip-flops: **[enter value from report]**
-- Total number of cells: **[enter value from report]**
-- Flop ratio: **[calculate]**
-- DFF percentage: **[calculate]**
+- Number of D flip-flops: **1613**
+- Total number of cells: **14876**
+- Flop ratio: **0.108429685**
+- DFF percentage: **10.8429685 %**
 
 ### Screenshot — Synthesis Statistics and Calculation
 
-<!-- Add screenshot(s) here -->
-<!-- ![Synthesis statistics](images/section-1-synthesis-statistics.png) -->
+
+<img width="812" height="575" alt="Screenshot 2026-10-17 085404" src="https://github.com/user-attachments/assets/44a7eb38-d168-472c-a454-8ac68d00e635" />
+
+<img width="842" height="377" alt="Screenshot 2026-10-17 085428" src="https://github.com/user-attachments/assets/830705ae-3922-4e38-ae1e-50c8e57a705f" />
 
 ---
 
@@ -160,7 +164,10 @@ run_floorplan
 ### Screenshot — Floorplan Run
 
 <!-- Add screenshot here -->
-<!-- ![Floorplan run](images/section-2-floorplan-run.png) -->
+<img width="855" height="707" alt="Screenshot 2026-10-18 234801" src="https://github.com/user-attachments/assets/7253027c-b4c4-462d-8102-6ed83332a601" />
+
+<img width="886" height="827" alt="Screenshot 2026-10-18 234858" src="https://github.com/user-attachments/assets/bd042ef7-09d0-4119-9fab-835a3a69b560" />
+
 
 #### 2. Inspect die dimensions and calculate area
 
@@ -183,7 +190,8 @@ Open the generated floorplan DEF and record the die coordinates. If the DEF uses
 ### Screenshot — DEF Dimensions and Area Calculation
 
 <!-- Add screenshot(s) here -->
-<!-- ![DEF dimensions](images/section-2-def-dimensions.png) -->
+<img width="885" height="792" alt="Screenshot 2026-10-19 000541" src="https://github.com/user-attachments/assets/6681cb21-1d5c-4389-a4f6-109a6d907d2e" />
+
 
 #### 3. Load the floorplan in Magic
 
@@ -198,8 +206,17 @@ magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/
 ### Screenshot — Floorplan in Magic
 
 <!-- Add screenshot(s) here -->
-<!-- ![Floorplan in Magic](images/section-2-floorplan-magic.png) -->
-<!-- ![I/O pins and tap cells](images/section-2-io-tap-cells.png) -->
+<img width="1211" height="917" alt="Screenshot 2026-10-19 001449" src="https://github.com/user-attachments/assets/23bb3b8e-f3bd-4dae-9572-237c57fe0e29" />
+
+<img width="1147" height="857" alt="Screenshot 2026-10-19 001843" src="https://github.com/user-attachments/assets/f8330bdf-bdf9-4803-824c-ac079eee48e9" />
+
+<img width="1126" height="850" alt="Screenshot 2026-10-19 002307" src="https://github.com/user-attachments/assets/a4adb45a-05b2-4e81-8487-3843a0d1e95a" />
+
+<img width="1073" height="867" alt="Screenshot 2026-10-19 002527" src="https://github.com/user-attachments/assets/2a9bb98a-1eeb-4e14-93ff-5c2f1f60def9" />
+
+<img width="1137" height="863" alt="Screenshot 2026-10-19 002827" src="https://github.com/user-attachments/assets/cdba092d-562d-4f36-b175-201211d4cf4c" />
+
+<img width="1138" height="861" alt="Screenshot 2026-10-19 003315" src="https://github.com/user-attachments/assets/b52b5f84-1357-4743-ab15-ef7c3b6c580c" />
 
 #### 4. Run placement
 
@@ -212,7 +229,10 @@ run_placement
 ### Screenshot — Placement Run
 
 <!-- Add screenshot here -->
-<!-- ![Placement run](images/section-2-placement-run.png) -->
+<img width="887" height="837" alt="Screenshot 2026-10-19 083808" src="https://github.com/user-attachments/assets/a4837457-a972-4140-b679-90ca87e15280" />
+
+<img width="878" height="847" alt="Screenshot 2026-10-19 084034" src="https://github.com/user-attachments/assets/3104734c-de9c-4004-8d69-ab6daf695620" />
+
 
 #### 5. Load the placement DEF in Magic
 
@@ -225,7 +245,9 @@ magic -T ~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/
 ### Screenshot — Placement in Magic
 
 <!-- Add screenshot(s) here -->
-<!-- ![Placement in Magic](images/section-2-placement-magic.png) -->
+<img width="895" height="865" alt="Screenshot 2026-10-19 084309" src="https://github.com/user-attachments/assets/7c908852-b2dc-4fbe-bbb0-94caaf94b03e" />
+
+<img width="888" height="832" alt="Screenshot 2026-10-19 084813" src="https://github.com/user-attachments/assets/e0148771-60dd-4d15-bbf1-7ed49089a6f7" />
 
 ---
 
@@ -251,7 +273,11 @@ magic -T sky130A.tech sky130_inv.mag &
 ### Screenshot — Repository and Inverter Layout
 
 <!-- Add screenshot(s) here -->
-<!-- ![Inverter layout](images/section-3-inverter-layout.png) -->
+<img width="792" height="562" alt="Screenshot 2026-10-19 130317" src="https://github.com/user-attachments/assets/bab55454-27aa-4aa1-9dff-e08f6c0eeba6" />
+
+
+<img width="657" height="721" alt="Screenshot 2026-10-19 130346" src="https://github.com/user-attachments/assets/53b33154-1648-4896-9155-9227930d62a6" />
+
 
 #### 2. Explore the layout
 
@@ -260,8 +286,23 @@ Inspect the PMOS and NMOS devices and verify the connectivity of the output, sup
 ### Screenshot — Device and Connectivity Checks
 
 <!-- Add screenshot(s) here -->
-<!-- ![PMOS and NMOS](images/section-3-transistors.png) -->
-<!-- ![Connectivity checks](images/section-3-connectivity.png) -->
+
+<img width="800" height="845" alt="Screenshot 2026-10-19 130444" src="https://github.com/user-attachments/assets/ce32b407-b8e9-45f7-b660-cab36aedba2b" />
+
+
+<img width="808" height="875" alt="Screenshot 2026-10-19 130502" src="https://github.com/user-attachments/assets/67f0bfe9-2328-4643-a56c-13b2dbb45e51" />
+
+
+<img width="807" height="886" alt="Screenshot 2026-10-19 130553" src="https://github.com/user-attachments/assets/112cc9ee-739f-497d-9542-e837bf92eafa" />
+
+
+<img width="802" height="856" alt="Screenshot 2026-10-19 130631" src="https://github.com/user-attachments/assets/880193fd-70b8-4b21-bb37-b08a4e0c0b92" />
+
+
+<img width="807" height="877" alt="Screenshot 2026-10-19 130645" src="https://github.com/user-attachments/assets/ce3623db-2dc6-4f72-b6e1-21b3c9115922" />
+
+
+<img width="917" height="922" alt="Screenshot 2026-10-19 143016" src="https://github.com/user-attachments/assets/4990733c-8413-447b-84f8-323de159b79d" />
 
 #### 3. Extract the SPICE netlist in Magic
 
@@ -276,8 +317,13 @@ ext2spice
 ### Screenshot — Extraction Commands and SPICE File
 
 <!-- Add screenshot(s) here -->
-<!-- ![Extraction commands](images/section-3-extraction.png) -->
-<!-- ![Generated SPICE file](images/section-3-spice-file.png) -->
+
+<img width="868" height="851" alt="Screenshot 2026-10-19 144000" src="https://github.com/user-attachments/assets/62df2989-9ea5-4081-bd82-d92b43717b62" />
+
+<img width="862" height="621" alt="Screenshot 2026-10-19 144129" src="https://github.com/user-attachments/assets/22f30272-8a51-4722-a530-33c22678c47e" />
+
+
+<img width="857" height="832" alt="Screenshot 2026-10-19 150816" src="https://github.com/user-attachments/assets/1f71aa69-b085-44a5-b4bf-a3b0088d4d64" />
 
 #### 4. Simulate with ngspice
 
@@ -296,8 +342,42 @@ plot y vs time a
 ### Screenshot — Simulation and Waveform
 
 <!-- Add screenshot(s) here -->
-<!-- ![ngspice simulation](images/section-3-ngspice.png) -->
-<!-- ![Output waveform](images/section-3-waveform.png) -->
+
+<img width="863" height="800" alt="Screenshot 2026-10-19 151255" src="https://github.com/user-attachments/assets/03c1867d-90fe-4a50-827c-098640ac2cfb" />
+
+<img width="1917" height="992" alt="Screenshot 2026-10-19 153002" src="https://github.com/user-attachments/assets/347516f4-2567-4d8e-aa24-b8e2abf75d53" />
+
+
+<img width="1628" height="682" alt="Screenshot 2026-10-19 153016" src="https://github.com/user-attachments/assets/9ea61a08-6be4-489c-9fb8-bc09e941053c" />
+
+
+<img width="1801" height="868" alt="Screenshot 2026-10-19 153422" src="https://github.com/user-attachments/assets/47e18521-1790-4fe0-ba18-461ec7b5ce24" />
+
+
+<img width="1067" height="853" alt="Screenshot 2026-10-19 153243" src="https://github.com/user-attachments/assets/368c59ef-300c-45aa-9f26-5145fc5310aa" />
+
+
+<img width="1848" height="856" alt="Screenshot 2026-10-19 153635" src="https://github.com/user-attachments/assets/e4e52cc9-4289-4547-8c07-b083cb59c338" />
+
+
+<img width="532" height="238" alt="Screenshot 2026-10-19 153653" src="https://github.com/user-attachments/assets/7b986694-3b65-4898-ba8c-b75c64aaa1b1" />
+
+
+<img width="1822" height="856" alt="Screenshot 2026-10-19 153745" src="https://github.com/user-attachments/assets/64335385-c2ac-413a-84ce-e8d7ac495abb" />
+
+
+<img width="350" height="227" alt="Screenshot 2026-10-19 153752" src="https://github.com/user-attachments/assets/bde41ede-99cd-4440-be1f-ff3728b6f4ba" />
+
+
+<img width="1785" height="862" alt="Screenshot 2026-10-19 153950" src="https://github.com/user-attachments/assets/03066581-3e9d-45d8-856f-d7fcebf0d005" />
+
+
+<img width="301" height="96" alt="Screenshot 2026-10-19 154010" src="https://github.com/user-attachments/assets/998f6ea8-548b-4ee0-b94c-1e833c656f20" />
+
+
+<img width="1801" height="840" alt="Screenshot 2026-10-19 154048" src="https://github.com/user-attachments/assets/9e381885-4031-46f2-b992-ad7f069dca6b" />
+
+<img width="668" height="476" alt="Screenshot 2026-10-19 154258" src="https://github.com/user-attachments/assets/4d3a5c60-768d-4ad6-8dfe-46c500f85dfa" />
 
 #### 5. DRC rule investigation
 
@@ -320,8 +400,56 @@ magic -d XR &
 ### Screenshot — DRC Investigation
 
 <!-- Add screenshot(s) here -->
-<!-- ![DRC setup](images/section-3-drc-setup.png) -->
-<!-- ![Rule investigation](images/section-3-drc-rule.png) -->
+
+<img width="1072" height="777" alt="Screenshot 2026-10-19 154855" src="https://github.com/user-attachments/assets/65b05571-98b6-48fd-b9d9-d821c3067bdd" />
+
+<img width="913" height="802" alt="Screenshot 2026-10-19 155021" src="https://github.com/user-attachments/assets/cf7597a8-1d62-41b3-8397-0e4f8555beef" />
+
+<img width="1471" height="845" alt="Screenshot 2026-10-19 163353" src="https://github.com/user-attachments/assets/faec0f08-4be8-4870-a875-f6322dd12de4" />
+
+
+<img width="896" height="841" alt="Screenshot 2026-10-19 164046" src="https://github.com/user-attachments/assets/7922fe2f-1c5c-4812-8b8b-f2c76f2628af" />
+
+
+<img width="885" height="835" alt="Screenshot 2026-10-19 165815" src="https://github.com/user-attachments/assets/b0ece9c7-0aeb-4a96-a9f9-f1fde3152842" />
+
+
+<img width="880" height="787" alt="Screenshot 2026-10-19 170038" src="https://github.com/user-attachments/assets/4ea60ab2-cf6c-4a2a-80ad-ee68103da116" />
+
+
+<img width="866" height="812" alt="Screenshot 2026-10-19 170304" src="https://github.com/user-attachments/assets/d6f43c33-eccc-4c84-9bf3-9c1c9a49b1d0" />
+
+<img width="900" height="876" alt="Screenshot 2026-10-19 174626" src="https://github.com/user-attachments/assets/e75c5fc8-d433-4fbe-b6dc-0f3d6f5adcb5" />
+
+
+<img width="1568" height="915" alt="Screenshot 2026-10-19 175041" src="https://github.com/user-attachments/assets/ff18713e-36f3-4472-b6f5-e6e6d2148fa9" />
+
+
+<img width="892" height="851" alt="Screenshot 2026-10-19 175302" src="https://github.com/user-attachments/assets/4679a4a1-a0fd-456f-82cb-88ba1557087a" />
+
+
+<img width="827" height="537" alt="Screenshot 2026-10-19 181232" src="https://github.com/user-attachments/assets/36aa0cb6-2808-4e66-af29-6bd006d214d0" />
+
+
+<img width="897" height="845" alt="Screenshot 2026-10-19 181321" src="https://github.com/user-attachments/assets/7090b7f1-7ac0-4788-b9a0-89d7bf751858" />
+
+
+<img width="1143" height="780" alt="Screenshot 2026-10-19 181350" src="https://github.com/user-attachments/assets/186c9fec-6006-4139-b465-b9427c0f11bc" />
+
+
+<img width="532" height="460" alt="Screenshot 2026-10-19 181503" src="https://github.com/user-attachments/assets/e4067f64-0e75-496f-8034-bcd8eb33a00e" />
+
+<img width="873" height="793" alt="Screenshot 2026-10-19 181746" src="https://github.com/user-attachments/assets/64e30040-d7f3-4476-be5f-46b62e9d47e8" />
+
+<img width="893" height="792" alt="Screenshot 2026-10-19 182026" src="https://github.com/user-attachments/assets/641746dc-e3fb-414f-a37e-17781c656cdc" />
+
+<img width="607" height="70" alt="Screenshot 2026-10-19 182208" src="https://github.com/user-attachments/assets/523da3b6-7c3b-4c89-b2c3-887693fb001a" />
+
+
+<img width="880" height="818" alt="Screenshot 2026-10-19 182351" src="https://github.com/user-attachments/assets/b8546286-95b6-49b8-9166-c86df2a44a3d" />
+
+
+<img width="891" height="872" alt="Screenshot 2026-10-19 182859" src="https://github.com/user-attachments/assets/eb8367a0-40c5-4a94-8d90-8a8dd019679b" />
 
 ---
 
@@ -352,7 +480,23 @@ grid 0.46um 0.34um 0.23um 0.17um
 ### Screenshot — Track Alignment
 
 <!-- Add screenshot(s) here -->
-<!-- ![Track alignment](images/section-4-track-alignment.png) -->
+
+<img width="891" height="872" alt="Screenshot 2026-10-19 182859" src="https://github.com/user-attachments/assets/d141ca74-3d8c-4bae-bab6-bd7a5935e1f9" />
+
+
+<img width="1177" height="835" alt="Screenshot 2026-10-19 183137" src="https://github.com/user-attachments/assets/91326daa-06bb-494c-85d1-b2f80add0a91" />
+
+
+<img width="1005" height="840" alt="Screenshot 2026-10-19 184027" src="https://github.com/user-attachments/assets/4f6930fc-71c3-4518-84c9-ea8435c77325" />
+
+
+<img width="1207" height="860" alt="Screenshot 2026-10-19 184313" src="https://github.com/user-attachments/assets/e37fdf3e-8835-4e6a-a228-66d9e7d1b1a6" />
+
+
+<img width="947" height="715" alt="Screenshot 2026-10-19 184445" src="https://github.com/user-attachments/assets/033517fc-5bd5-4944-9858-977d2cff193b" />
+
+
+<img width="1187" height="856" alt="Screenshot 2026-10-19 184527" src="https://github.com/user-attachments/assets/77ac488d-1239-4fb7-8371-52886aea54d5" />
 
 #### 2. Save the layout and generate LEF
 
