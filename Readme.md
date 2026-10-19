@@ -679,11 +679,6 @@ report_checks -path_delay min_max -fields {slew trans net cap input_pins} -forma
 | DEF | Physical design data such as placement and routing |
 | SPEF | Extracted parasitic resistance and capacitance data |
 
-## Certificate
-
-<!-- Add your workshop certificate screenshot or link here -->
-<!-- ![Workshop Certificate](images/certificate.png) -->
-
 ## Acknowledgements
 
 Thanks to the workshop organisers and the open-source EDA community for the learning material and tools.
@@ -691,11 +686,9 @@ Thanks to the workshop organisers and the open-source EDA community for the lear
 - [VLSI System Design (VSD)](https://www.vlsisystemdesign.com/)
 - [SkyWater SKY130 PDK](https://github.com/google/skywater-pdk)
 - [OpenLANE](https://github.com/The-OpenROAD-Project/OpenLane)
-- [Reference repository](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd)
 
 ## Resources
 
-- [Reference workshop repository](https://github.com/fayizferosh/soc-design-and-planning-nasscom-vsd)
 - [Sky130 documentation](https://skywater-pdk.readthedocs.io/en/main/)
 - [OpenLANE documentation](https://openlane.readthedocs.io/)
 
