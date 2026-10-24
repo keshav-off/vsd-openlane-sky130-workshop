@@ -768,7 +768,8 @@ Commands used to run synthesis with the new LEF (see step 6). Screenshot of the 
 
 The `pre_sta.conf` file created in the `openlane` directory for STA:
 
-<img width="645" height="347" alt="Screenshot 2026-10-19 193548" src="https://github.com/user-attachments/assets/4546f8e4-de4a-4000-89ed-6b761c219fb0" />
+<img width="947" height="627" alt="Screenshot 2026-10-25 002434" src="https://github.com/user-attachments/assets/7f7b03e5-c58e-46e2-94b0-67d5313e1920" />
+
 <img width="801" height="787" alt="Screenshot 2026-10-19 193910" src="https://github.com/user-attachments/assets/ba0f85e4-1100-475d-bf35-42bd9c9fd16b" />
 
 Commands to run STA in another terminal:
