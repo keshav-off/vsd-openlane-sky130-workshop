@@ -736,7 +736,7 @@ run_placement
 Load the placement DEF in Magic from another terminal:
 
 ```bash
-cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-10_13-59/results/placement/
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-10_13-31/results/placement/
 
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 ```
@@ -929,7 +929,7 @@ Screenshot of the replaced instance:
 Commands to back up the old netlist:
 
 ```bash
-cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/RUN_FOLDER_NAME/results/synthesis/
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-10_13-59/results/synthesis/
 cp picorv32a.synthesis.v picorv32a.synthesis_old.v
 ```
 
