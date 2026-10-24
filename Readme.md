@@ -1159,10 +1159,6 @@ cd Desktop/work/tools/SPEF_EXTRACTOR
 python3 main.py /path/to/merged.lef /path/to/picorv32a.def
 ```
 
-Screenshot of the extracted SPEF file:
-
-![Section 5 - SPEF extraction](images/section5/spef.png)
-
 #### 4. Post-route OpenSTA timing analysis
 
 Commands to run in the OpenLANE flow to do the timing analysis with the OpenSTA built into OpenROAD:
@@ -1183,13 +1179,6 @@ read_spef /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/results/routing/
 
 report_checks -path_delay min_max -format full_clock_expanded -digits 4
 ```
-
-Screenshots of the commands run and the timing report:
-
-![Section 5 - post-route timing](images/section5/post_route_1.png)
-![Section 5 - post-route timing](images/section5/post_route_2.png)
-![Section 5 - post-route timing](images/section5/post_route_3.png)
-![Section 5 - post-route timing](images/section5/post_route_4.png)
 
 ---
 
