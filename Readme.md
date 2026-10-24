@@ -101,7 +101,7 @@ Percentage of DFFs = 0.108429685 × 100 = ** 10.8429685%**
 
 All Section 2 logs, reports and results are in this run folder:
 
-[Section 2 Run - 18-10_18-06](openlane/designs/picorv32a/runs/18-10_18-06)
+[Section 2 Run - 19-10_03-02](openlane/designs/picorv32a/runs/19-10_03-02)
 
 #### 1. Run floorplan using the OpenLANE flow
 
@@ -149,7 +149,7 @@ $$Die\ area = 660.685 \times 671.405 = 443587.212425\ \mu microns^2$$
 Run this in a second terminal:
 
 ```bash
-cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/RUN_FOLDER_NAME/results/floorplan/
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-10_03-02/results/floorplan/
 
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
 ```
@@ -196,7 +196,7 @@ Screenshots of the placement run:
 #### 5. Load the placement DEF in Magic
 
 ```bash
-cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/RUN_FOLDER_NAME/results/placement/
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-10_03-02/results/placement/
 
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 ```
