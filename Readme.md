@@ -22,15 +22,6 @@ This repository documents my work for every section of the workshop: commands, s
 
 ## Section 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 
-### Theory
-
-<details>
-<summary><b>Expand or Collapse</b></summary>
-
-<!-- Paste your lecture transcript and slide screenshots for Section 1 here -->
-
-</details>
-
 ### Implementation
 
 **Tasks**
@@ -40,7 +31,7 @@ This repository documents my work for every section of the workshop: commands, s
 
 All Section 1 logs, reports and results are in this run folder:
 
-[Section 1 Run - RUN_FOLDER_NAME](openlane/designs/picorv32a/runs/RUN_FOLDER_NAME)
+[Section 1 Run - 17-10_02-52](openlane/designs/picorv32a/runs/17-10_02-52)
 
 #### 1. Run `picorv32a` synthesis using the OpenLANE flow
 
@@ -110,7 +101,7 @@ Percentage of DFFs = 0.108429685 × 100 = ** 10.8429685%**
 
 All Section 2 logs, reports and results are in this run folder:
 
-[Section 2 Run - RUN_FOLDER_NAME](openlane/designs/picorv32a/runs/RUN_FOLDER_NAME)
+[Section 2 Run - 18-10_18-06](openlane/designs/picorv32a/runs/18-10_18-06)
 
 #### 1. Run floorplan using the OpenLANE flow
 
