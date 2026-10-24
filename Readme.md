@@ -1039,7 +1039,7 @@ Screenshots of the commands run and the timing report:
 
 All Section 5 logs, reports and results are in this run folder:
 
-[Section 5 Run - RUN_FOLDER_NAME](openlane/designs/picorv32a/runs/RUN_FOLDER_NAME)
+[Section 5 Run - 19-10_16-29](openlane/designs/picorv32a/runs/19-10_16-29)
 
 #### 1. Generate the PDN and explore the layout
 
@@ -1076,7 +1076,7 @@ Screenshots of the PDN run:
 Commands to load the PDN DEF in Magic from another terminal:
 
 ```bash
-cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/RUN_FOLDER_NAME/tmp/floorplan/
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-10_16-29/tmp/floorplan/
 
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../merged.lef def read 14-pdn.def &
 ```
@@ -1105,7 +1105,7 @@ Screenshots of the routing run:
 Commands to load the routed DEF in Magic from another terminal:
 
 ```bash
-cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/RUN_FOLDER_NAME/results/routing/
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-10_16-29/results/routing/
 
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.def &
 ```
@@ -1117,7 +1117,7 @@ Screenshots of the routed DEF:
 <img width="980" height="832" alt="Screenshot 2026-10-19 222051" src="https://github.com/user-attachments/assets/e979770b-c379-4d3c-bb75-d06636929c0c" />
 <img width="985" height="857" alt="Screenshot 2026-10-19 222202" src="https://github.com/user-attachments/assets/f6f9a089-d060-438f-959d-5fc401df28aa" />
 
-Screenshot of the fast route guide in `openlane/designs/picorv32a/runs/RUN_FOLDER_NAME/tmp/routing`:
+Screenshot of the fast route guide in `openlane/designs/picorv32a/runs/19-10_16-29/tmp/routing`:
 
 <img width="975" height="847" alt="Screenshot 2026-10-19 222413" src="https://github.com/user-attachments/assets/625c2def-14d4-4c49-a947-78794b5ad597" />
 
@@ -1145,16 +1145,16 @@ Commands to run in the OpenLANE flow to do the timing analysis with the OpenSTA 
 ```tcl
 openroad
 
-read_lef /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/tmp/merged.lef
-read_def /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/results/routing/picorv32a.def
+read_lef /openLANE_flow/designs/picorv32a/runs/19-10_16-29/tmp/merged.lef
+read_def /openLANE_flow/designs/picorv32a/runs/19-10_16-29/results/routing/picorv32a.def
 write_db pico_route.db
 read_db pico_route.db
-read_verilog /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/results/synthesis/picorv32a.synthesis_preroute.v
+read_verilog /openLANE_flow/designs/picorv32a/runs/19-10_16-29/results/synthesis/picorv32a.synthesis_preroute.v
 read_liberty $::env(LIB_SYNTH_COMPLETE)
 link_design picorv32a
 read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc
 set_propagated_clock [all_clocks]
-read_spef /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/results/routing/picorv32a.spef
+read_spef /openLANE_flow/designs/picorv32a/runs/19-10_16-29/results/routing/picorv32a.spef
 
 report_checks -path_delay min_max -format full_clock_expanded -digits 4
 ```
