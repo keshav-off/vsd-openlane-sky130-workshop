@@ -954,7 +954,7 @@ Commands load the design and run necessary stages
 Commands to load the design and run the stages:
 
 ```tcl
-prep -design picorv32a -tag 19-10_13-31 -overwrite
+prep -design picorv32a -tag 19-10_13-59 -overwrite
 set lefs [glob $::env(DESIGN_DIR)/src/*.lef]
 add_lefs -src $lefs
 
@@ -981,11 +981,11 @@ Commands to run in the OpenLANE flow to use the OpenSTA built into OpenROAD:
 ```tcl
 openroad
 
-read_lef /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/tmp/merged.lef
-read_def /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/results/cts/picorv32a.cts.def
+read_lef /openLANE_flow/designs/picorv32a/runs/19-10_13-59/tmp/merged.lef
+read_def /openLANE_flow/designs/picorv32a/runs/19-10_13-59/results/cts/picorv32a.cts.def
 write_db pico_cts.db
 read_db pico_cts.db
-read_verilog /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/results/synthesis/picorv32a.synthesis_cts.v
+read_verilog /openLANE_flow/designs/picorv32a/runs/19-10_13-59/results/synthesis/picorv32a.synthesis_cts.v
 read_liberty $::env(LIB_SYNTH_COMPLETE)
 link_design picorv32a
 read_sdc /openLANE_flow/designs/picorv32a/src/my_base.sdc
@@ -1011,7 +1011,7 @@ set ::env(CTS_CLK_BUFFER_LIST) [lreplace $::env(CTS_CLK_BUFFER_LIST) 0 0]
 echo $::env(CTS_CLK_BUFFER_LIST)
 
 # Go back to the placement DEF and re-run CTS
-set ::env(CURRENT_DEF) /openLANE_flow/designs/picorv32a/runs/RUN_FOLDER_NAME/results/placement/picorv32a.placement.def
+set ::env(CURRENT_DEF) /openLANE_flow/designs/picorv32a/runs/19-10_13-31/results/placement/picorv32a.placement.def
 run_cts
 
 # Repeat the OpenROAD timing analysis from step 12
