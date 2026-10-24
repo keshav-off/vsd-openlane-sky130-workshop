@@ -232,8 +232,6 @@ exit
 
 Files for tasks 1 to 5: [vsdstdcelldesign](openlane/vsdstdcelldesign)
 
-Files for task 6: [drc_tests](drc_tests)
-
 #### 1. Clone the custom inverter design
 
 ```bash
