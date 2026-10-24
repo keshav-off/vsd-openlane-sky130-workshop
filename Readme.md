@@ -527,7 +527,7 @@ Files for tasks 1 to 3: [vsdstdcelldesign](openlane/vsdstdcelldesign)
 
 Files for tasks 4 and 5: [picorv32a src](openlane/designs/picorv32a/src)
 
-Logs, reports and results for the run-based tasks: [Section 4 Run - RUN_FOLDER_NAME](openlane/designs/picorv32a/runs/RUN_FOLDER_NAME)
+Logs, reports and results for the run-based tasks: [Section 4 Run - 19-10_13-59](openlane/designs/picorv32a/runs/19-10_13-59)
 
 #### 1. Fix small DRC errors and verify the cell is ready for the flow
 
@@ -736,7 +736,7 @@ run_placement
 Load the placement DEF in Magic from another terminal:
 
 ```bash
-cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/RUN_FOLDER_NAME/results/placement/
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/19-10_13-59/results/placement/
 
 magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
 ```
