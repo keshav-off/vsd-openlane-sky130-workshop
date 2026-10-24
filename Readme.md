@@ -101,7 +101,7 @@ Percentage of DFFs = 0.108429685 × 100 = ** 10.8429685%**
 
 All Section 2 logs, reports and results are in this run folder:
 
-[Section 2 Run - RUN_FOLDER_NAME](openlane/designs/picorv32a/runs/RUN_FOLDER_NAME)
+[Section 2 Run - 18-10_18-06](openlane/designs/picorv32a/runs/18-10_18-06)
 
 #### 1. Run floorplan using the OpenLANE flow
 
