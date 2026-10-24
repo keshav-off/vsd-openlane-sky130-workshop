@@ -22,8 +22,6 @@ This repository documents my work for every section of the workshop: commands, s
 
 ## Section 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
 
-**Dates:** DD/MM/YYYY - DD/MM/YYYY
-
 ### Theory
 
 <details>
@@ -99,8 +97,6 @@ Percentage of DFFs = 0.108429685 × 100 = ** 10.8429685%**
 ---
 
 ## Section 2 - Good floorplan vs bad floorplan and introduction to library cells
-
-**Dates:** DD/MM/YYYY - DD/MM/YYYY
 
 ### Implementation
 
@@ -231,8 +227,6 @@ exit
 ---
 
 ## Section 3 - Design library cell using Magic layout and ngspice characterization
-
-**Dates:** DD/MM/YYYY - DD/MM/YYYY
 
 ### Implementation
 
@@ -521,8 +515,6 @@ Magic window with the rule now working:
 ---
 
 ## Section 4 - Pre-layout timing analysis and importance of good clock tree
-
-**Dates:** DD/MM/YYYY - DD/MM/YYYY
 
 ### Implementation
 
@@ -1046,8 +1038,6 @@ Screenshots of the commands run and the timing report:
 ---
 
 ## Section 5 - Final steps for RTL to GDSII using TritonRoute and OpenSTA
-
-**Dates:** DD/MM/YYYY - DD/MM/YYYY
 
 ### Implementation
 
